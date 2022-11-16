@@ -1,11 +1,11 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="走るも寝るもしたくないメロス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「走るも寝るもしたくないメロス」[l][r]
 
 メロスは激怒した。[l][r]
 
@@ -18,6 +18,8 @@
 
 [link target=*tag_sleep] →寝る [endlink][r]
 [link target=*tag_run] →走る [endlink][r]
+[link target=*tag_nothing] →何もしない [endlink][r]
+[link target=*tag_cat] →ねこになる [endlink][r]
 [s]
 
 *tag_sleep
@@ -42,5 +44,29 @@
 陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
 【 GOOD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_nothing
+
+[bg storage=animal.jpg time=500]
+
+[cm]
+メロスは何もしなかった。[l][r]
+寝ることも、走ることもできず、ただゾンビのようにうめくばかり...[r]
+
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_cat
+
+[bg storage=cat.jpg time=500]
+
+[cm]
+メロスは猫になった。[l][r]
+この世の全ての苦悩から解脱し、最も素晴らしい神になった。[r]
+
+【 SUPER GOOD END 】[l][cm]
 
 [jump target=*start]

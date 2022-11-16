@@ -12,3 +12,9 @@
 
 * `run.jpg` by Maksim Romashkin
 * `sleep.jpg` by Andrea Piacquadio
+
+以下追加、
+`docs/bgimage`以下にある以下のファイルは、Pixabayからダウンロードしたものです。
+
+* `animal.jpg` by Gerhard
+* `cat.jpg` by K L
